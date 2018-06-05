@@ -12,3 +12,6 @@
     2. A project that emphasized on domain design that had been a great success. Through the model the team and the software stayed alive and responsive to clients needs. The model improved, so did the count of opportunities for the project grow.
     3. A project that emphasized on domain design at first, but then lost its focus, then its vision, and ended up as a modest, conventional project with modest success.
   
+## The Challenge of Complexity
+
+  - ...
