@@ -42,3 +42,56 @@ Daher:
   
 Der Autor nutzt Extreme Programming. Die Leichtigkeit von Extreme Programming steht im Kontrast zu Designansätzen wie dem Wasserfallmodell in denen zunächst Design stark übergewichtet wird, ohne dann Bezug zur Entwicklung zu haben. Das führt zu unnötigen Problemen.
 
+## The Heart of Software
+
+Das Herz der Software ist ihre Fähigkeit Herausforderungen für den Benutzer zu lösen. Dennoch sind die meisten talentierten Entwickler nicht gewillt sich mit der Domäne ihrer Kunden auseinanderzusetzen. Stattdessen beschäftigen sie sich lieber mit rein technischen Problemen und überlassen die Analyse der Domäne anderen.
+
+Der Autor erläutert als Beispiel einen Vorfall bei den Dreharbeiten eines Monty Python Films, bei dem ein Film-Editor eine lustige Aufnahme einer komplizierten Szene verworfen hatte, weil sie nicht technisch perfekt war. Sie erfüllte aber den Zweck des Regisseurs hervorragend, weil die Szene dort lustig herüberkam, was in etlichen anderen Aufnahmen nicht gelungen war.
+
+Das Buch befasst sich mit Arten zu Denken, die Entwickler anwenden können, um Domänen zu verstehen und passende Modelle zu entwickeln.
+
+# Crunching Knowledge
+
+Der Autor beschreibt in der Einleitung, wie er in einem vergangenen Projekt mit den Domänen Experten zusammen saß und wie sie zusammen in ihren Besprechungen ein Modell für eine komplexe Anwendung entwickelten. Hierbei profitierte er vom Einblick in die Domäne und die Experten profitierten ebenfalls, weil die systematische Denkweise des Entwicklers ihnen half, herauszufinden, was das Herz ihrer Software eigentlich ist und sein sollte. Er zeigt hierbei, wie Sprache sehr bewusst als Modellierungswerkzeug eingesetzt wurde. Und wie dies letztlich zum Erfolg der Software beitrug.
+
+## Ingredients of effective Modeling
+
+Folgende Zutaten haben zu dem zuvor beschriebenen Erfolg :
+
+  1. Die Verbindung von Modell und Implementation.
+  2. Das kultivieren einer Sprache, die auf dem Modell basiert.
+  3. Entwicklung eines wissenstragenden Modells
+  4. Verschlankung / Kristallisierung des Modells
+  5. Brainstormen und experimentieren
+
+Es ist die Kreativität von Brainstorming und intensiven Experimenten mit einer modellbasierten Sprache, diszipliniert durch den Feedback-Loop der Implementation, welche es ermöglicht ein wissensintensives Modell zu finden und es treffender zu gestalten.
+
+## Knowledge Crunching
+
+Effektive Domänen-Modellierer prüfen viele unterschiedliche Organisationsideen um die einfachste Option zu finden, die im Großen und Ganzen Sinn ergibt.
+Das Knobeln zum Finden des Modells ist eine Team-Aktivität von Entwicklern und Domänenexperten. Die Aufgabe der Entwickler ist dabei der Entwurf von Zeichnungen und Mitschriften und das Führen des Gesprächs. Die Domänenexperten bringen ihr Wissen und ihre Anforderungen mit ein.
+
+In der klassischen Wasserfallmethode sprechen die Domänenexperten mit Analysten, die dann das Ergebnis ihrer Analyse an Softwareentwickler übergeben, welche dann die Software schreibeb. Es gibt kein Feedback und keine Möglichkeit für die Entwickler zu lernen.
+
+Iterativ entwickelte Projekte können ebenfalls Probleme haben, wenn sie kein Modell aufbauen, sondern einfach nur Anforderungen erfüllen. In einem solchen Projekt stehen die Anforderungen dann nebeneinander, ohne ein Modell zu bilden.
+
+Großartige Softwareentwickler werden automatisch beginnen ein Modell aufzustellen, in das sich die aktuellen und kommenden Anforderungen natürlich einfügen. Aber auch das wird nur teilweise erfolgreich sein, wenn das Modell keine tiefe Verbindung zur Domäne aufweist.
+
+## Continuous Learning
+
+Wenn wir beginnen, Software zu schreiben, wissen wir niemals genug. Und das Wissen um ein Projekt nimmt aus vielen Gründen über die Zeit auch noch ab.
+Hochproduktive Teams pflegen und erweitern ihr Wissen bewusst, z.B. in dem sie "continuous learning" (Kerievski 2003) anwenden.
+Für Entwickler bedeutet das sowohl technische Fortbildung als auch intensive Fortbildung im Bereich der Domäne.
+Diese autodidaktisch arbeitenden Team-Mitglieder bilden einen stabilen Kern, der in den kritischsten Bereichen eingesetzt werden kann.
+
+## Knowledge Rich Design
+
+In Modellen geht es nicht nur darum, die richtigen Substantive zu finden. Auch Aktivitäten und Geschäftsregeln bilden einen wichtigen Anteil. 
+Domänen-Experten sind sich oft der Komplexität ihrer Domäne nicht bewusst, weil sie ihr Wissen leben und fließend Widersprüche und Lücken situationsbedingt auffüllen. 
+Das kann Software nicht leisten. Diese Erkenntnisse müssen in einer Kooperation zwischen Entwicklern und Domänenexperten herausgearbeitet werden.
+
+(Es folgt ein Beispiel zur Extraktion eines versteckten Konzepts.)
+
+## Deep Models
+
+
