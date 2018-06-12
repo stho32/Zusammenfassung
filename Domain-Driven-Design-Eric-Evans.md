@@ -94,4 +94,34 @@ Das kann Software nicht leisten. Diese Erkenntnisse müssen in einer Kooperation
 
 ## Deep Models
 
+Nützliche Modelle findet man nicht so einfach. Das Container-Liefersystem wird im Buch als Beispiel verwendet. 
 
+Das Modell, das entwickelt wurde, hat zwar die näheren Anforderungen erfüllt, aber dennoch waren die Domänenexperten nicht wirklich zufrieden. Etwas hat gefehlt. Nach Monaten fanden wir heraus, dass Belade-, Entlade- und Bewegungsaufträge hauptsächlich von Unterauftragnehmern erledigt wurden. D.h. es fanden aus Sicht der Domänenexperten ständig Verantwortungswechsel statt. 
+Oftmals fanden wichtige Schritte statt, während sich das Transportgut überaupt nicht bewegte. 
+
+Auf der anderen Seite fanden manchmal komplexe physikalische Schritte statt, ohne dass dies für unseren Kunden interessant gewesen wäre. 
+
+Es ging hier hauptsächlich um Verträge und Rechnungen sowie Zahlungsprozesse. Das veränderte das Modell tiefgreifend. 
+Daher bedenke: Du weißt nie, wo du landen wirst.
+
+# Communication and the use of Language
+
+Ein Modell kann der Kern einer gemeinsamen Sprache eines Softwareprojektes werden. Diese Modellelemente sind auf der einen Seite an die Domäne gebunden und auf der anderen Seite genau genug für eine technische Implementation. 
+
+Diese Sprache verbessert die Kommunikation über dne Code und die Tests.
+
+Wie Sprache in einem Projekt verwendet wird ist sehr wichtig.
+
+## Ubiquitous Lanugage (Allgegenwärtige Sprache)
+
+Domänenexperten und Entwickler sprechen unterschiedliche Sprachen, auch wenn sie sich intensiv darum bemühen, den jeweils anderen zu verstehen.
+
+In einem Projekt ohne eine gemeinsame Sprache wird stetig hin- und her übersetzt, was zu Informationsverlust, Missverständnissen, mehrdeutigen Begriffen und Begriffen, die unterschiedliche Teammitglieder unbewusst anders verstehen, führt.
+Das wiederum führt zu Quelltext-verschlechternden Refactorings.
+
+Benutze das Modell als Rückrad einer Sprache. Bringe das Team dazu, die Sprache rücksichtslos in Gesprächen und Quelltext zu verwenden. Glätte Schwierigkeiten durch Experimente mit alternativen Ausdrücken, die zu alternativen Modellen gehören.
+Dann refaktoriere den Code, benenne Klassen, Methoden und Module um, damit sie mit dem neuen Modell übereinstimmen.
+Löse Missinterpretationen in den Begriffen auf. 
+Bemerke, dass eine Änderung in der Sprache automatisch eine Änderung im Modell bewirkt.
+
+(Aktueller Stand : S. 27 / 506)
